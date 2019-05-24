@@ -11,7 +11,7 @@ This package is compatible with [cpplint](https://github.com/cpplint/cpplint).
 Via CMake.
 
 ``` bash
-include_directories(sepbit/testhpp/include)
+include_directories(testhpp/include)
 ```
 
 ## Usage
