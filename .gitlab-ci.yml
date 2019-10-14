@@ -4,16 +4,11 @@ before_script:
   - apt-get update -yqq
   - apt-get install -yqq cmake lcov
 
-build:
-  stage: build
+test:
   script:
     - mkdir build
     - cd build
     - cmake -D TEST=ON -G "Unix Makefiles" ..
     - make
-
-test:
-  stage: test
-  script:
     - ctest -V
     - sh coverage.sh
