@@ -30,8 +30,7 @@ lcov --capture \
 lcov --no-external \
     --remove coverage/coverage-total.info \
     "/usr/include/*" \
-    "/usr/lib/*" \
-    "/usr/local/" \
+    "/usr/local/include/*" \
     --output-file coverage/coverage-filtered.info
 
 # genhtml coverage/coverage-filtered.info \
