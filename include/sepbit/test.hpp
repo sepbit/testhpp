@@ -22,8 +22,8 @@
  * @see       https://gitlab.com/sepbit/testhpp Repository of Testhpp
  */
 
-#ifndef SEPBIT_TEST_HPP_
-#define SEPBIT_TEST_HPP_
+#ifndef INCLUDE_SEPBIT_TEST_HPP_
+#define INCLUDE_SEPBIT_TEST_HPP_
 
 #include <stdlib.h>
 #include <string.h>
@@ -50,4 +50,4 @@
         exit(EXIT_FAILURE); \
     }
 
-#endif  // SEPBIT_TEST_HPP_
+#endif  // INCLUDE_SEPBIT_TEST_HPP_

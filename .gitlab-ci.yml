@@ -1,0 +1,19 @@
+image: gcc
+
+before_script:
+  - apt-get update -yqq
+  - apt-get install -yqq cmake lcov
+
+build:
+  stage: build
+  script:
+    - mkdir build
+    - cd build
+    - cmake -D TEST=ON -G "Unix Makefiles" ..
+    - make
+
+test:
+  stage: test
+  script:
+    - ctest -V
+    - sh coverage.sh

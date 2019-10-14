@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
+#
+# apt-get install -y lcov
+#
 
 DIR="*/CMakeFiles/"
 
@@ -29,5 +32,5 @@ lcov --no-external \
     "/usr/include/*" \
     --output-file coverage/coverage-filtered.info
 
-genhtml coverage/coverage-filtered.info \
-    --output-directory coverage
+# genhtml coverage/coverage-filtered.info \
+#    --output-directory coverage

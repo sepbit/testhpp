@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
+#
+# pip install cpplint
+#
 
 #
 # Check cpplint
