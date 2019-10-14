@@ -12,3 +12,5 @@ test:
     - make
     - ctest -V
     - sh ../coverage.sh
+    - cat coverage/coverage-total.info
+    - cat coverage/coverage-filtered.info
