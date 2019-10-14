@@ -1,6 +1,6 @@
 /**
  * Testhpp - Header-Only Unit-Test for CPP
- * Copyright 2019 SEPBIT
+ * Copyright 2019 Sepbit
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,9 +17,9 @@
  * C++ version 11
  *
  * @author    Vitor Guia <contato@vitor.guia.nom.br>
- * @copyright 2019 SEPBIT
+ * @copyright 2019 Sepbit
  * @license   http://www.apache.org/licenses/LICENSE-2.0
- * @see       https://notabug.org/sepbit/testhpp Repository of Testhpp
+ * @see       https://gitlab.com/sepbit/testhpp Repository of Testhpp
  */
 
 #include <string>
@@ -67,8 +67,8 @@ void greaterTest() {
  * @return void
  */
 void stringCompareTest() {
-    std::string str1("SEPBIT");
-    std::string str2("SEPBIT");
+    std::string str1("Sepbit");
+    std::string str2("Sepbit");
     SEPBIT_TESTHPP(str1.compare(str2) == 0);
 }
 

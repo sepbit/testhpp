@@ -45,6 +45,10 @@ $ ctest -V
 
 Pull Requests not accepted.
 
+## Security
+
+If you discover any security related issues, please email `contato@sepbit.com` instead of using the issue tracker.
+
 ## License
 
 Apache 2.0, please see [LICENSE](LICENSE) and [NOTICE](NOTICE) files for more information.
