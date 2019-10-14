@@ -11,4 +11,4 @@ test:
     - cmake -D TEST=ON -G "Unix Makefiles" ..
     - make
     - ctest -V
-    - sh coverage.sh
+    - sh ../coverage.sh
