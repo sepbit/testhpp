@@ -11,4 +11,4 @@ if [ ! "$(command -v cpplint)" ]; then
     exit
 fi
 
-cpplint include/sepbit/* test/*
+cpplint include/sepbit/*.hpp test/*.cpp

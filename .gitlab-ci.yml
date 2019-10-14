@@ -3,14 +3,14 @@ image: gcc:8.3.0
 before_script:
   - apt-get update -yqq
   - apt-get install -yqq cmake lcov
+  - pip install cpplint
 
 test:
   script:
+    - sh check-style.sh
     - mkdir build
     - cd build
     - cmake -D TEST=ON -G "Unix Makefiles" ..
     - make
     - ctest -V
     - sh ../coverage.sh
-    - cat coverage/coverage-total.info
-    - cat coverage/coverage-filtered.info

@@ -33,5 +33,6 @@ lcov --no-external \
     "/usr/local/include/*" \
     --output-file coverage/coverage-filtered.info
 
-# genhtml coverage/coverage-filtered.info \
-#    --output-directory coverage
+genhtml --quiet \
+    coverage/coverage-filtered.info \
+    --output-directory coverage
