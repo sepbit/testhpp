@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7 FATAL_ERROR)
 project(Testhpp
         VERSION 1.0.0
         DESCRIPTION "This is a simple library Header-Only Unit-Test for CPP"
-        HOMEPAGE_URL "https://notabug.org/sepbit/testhpp"
+        HOMEPAGE_URL "https://gitlab.com/sepbit/testhpp"
         LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 11)
