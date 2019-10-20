@@ -6,12 +6,20 @@ This is a simple library Header-Only Unit-Test for CPP.
 
 This package is compatible with [cpplint](https://github.com/cpplint/cpplint).
 
+![Screenshot](https://gitlab.com/sepbit/testhpp/uploads/7ff423534aef2c48eee6652bed7da9eb/testhpp.png)
+
 ## Install
 
-Via CMake.
+Via CMake and Git.
 
 ``` bash
-include_directories(testhpp/include)
+git submodule add https://gitlab.com/sepbit/testhpp.git vendor/
+```
+
+Add the snippet below to your `CMakeLists.txt` file
+
+``` cmake
+include_directories(vendor/testhpp/include)
 ```
 
 ## Usage
