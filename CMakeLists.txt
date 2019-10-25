@@ -19,27 +19,12 @@ if(TEST)
 endif()
 
 #
-# Install header
+# CPack
 #
 install(DIRECTORY include/sepbit
         DESTINATION include)
-
-#
-# Install others
-#
 install(FILES LICENSE NOTICE README.md
         DESTINATION share/doc/sepbit/testhpp)
-
-#
-# CPack
-#
-set(CPACK_DEBIAN_PACKAGE_NAME "${PROJECT_NAME}")
-set(CPACK_DEBIAN_PACKAGE_VERSION "${PROJECT_VERSION}")
-set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "${PROJECT_DESCRIPTION}")
-set(CPACK_DEBIAN_PACKAGE_MAINTAINER
-    "Sepbit <contato@sepbit.com>")
-set(CPACK_DEBIAN_PACKAGE_ARCHITECTURE "amd64")
-set(CPACK_DEBIAN_PACKAGE_DEPENDS "libc6 (>= 2.24-11)")
 include(CPack)
 
 #
