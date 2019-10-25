@@ -13,13 +13,6 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- *
- * C++ version 11
- *
- * @author    Vitor Guia <contato@vitor.guia.nom.br>
- * @copyright 2019 Sepbit
- * @license   http://www.apache.org/licenses/LICENSE-2.0
- * @see       https://gitlab.com/sepbit/testhpp Repository of Testhpp
  */
 
 #include <string>
