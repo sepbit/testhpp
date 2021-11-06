@@ -1,5 +1,9 @@
 image: gcc:8.3.0
 
+include:
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Security/Dependency-Scanning.gitlab-ci.yml
+
 before_script:
   - apt-get update -yqq
   - apt-get install -yqq cmake lcov python3-dev python3-pip
