@@ -1,4 +1,4 @@
-image: gcc:8.3.0
+image: gcc:latest
 
 include:
   - template: Security/SAST.gitlab-ci.yml
